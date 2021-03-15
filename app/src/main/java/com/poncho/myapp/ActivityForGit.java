@@ -26,7 +26,7 @@ public class ActivityForGit extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own lala", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
-                Snackbar.make(view, "Replace with your own", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Replace with your own message", Snackbar.LENGTH_SHORT)
                         .setAction("Action", null).show();
 
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
