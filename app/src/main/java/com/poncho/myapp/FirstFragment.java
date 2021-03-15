@@ -18,6 +18,8 @@ public class FirstFragment extends Fragment {
     ) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_first, container, false);
+        // TODO
+        // inflate the new layout
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
@@ -28,6 +30,9 @@ public class FirstFragment extends Fragment {
             public void onClick(View view) {
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
+
+                NavHostFragment.findNavController(FirstFragment.this)
+                        .navigate(R.id.action_settings);
             }
         });
     }
